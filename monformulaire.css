@@ -1,0 +1,56 @@
+body {
+  background-image: url(famille-passant-du-temps-ensemble-exterieur-dans-parc.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: cover;
+  background-position-x: left;
+}
+
+.bgcustom1 {
+  font-size: 40px ;
+}
+
+.cardHeader1{
+  background-color: #fdfe8a;
+  backdrop-filter: blur(4px);
+  
+
+}
+
+.card {
+  backdrop-filter: blur (4px);
+  background-color: rgba(255, 255, 255, 0.707);
+}
+
+.table{
+  padding: 10px;
+}
+
+.tablePadding{
+  padding-left: 15px;
+  padding-right: 15px;
+  color: red;
+}
+
+.theadCustom {
+  background-color: gold;
+  color: white;
+  font-family: Roboto;
+  width: 100%;
+  padding-right: 25px;
+  padding-left: 25px;
+  border: 2px solid black;
+}
+
+.bg-warning {
+  background-color: palevioletred;
+}
+
+.card-Custom {
+  backdrop-filter: blur(1px);
+  background-color: #e51d1dd3;
+  font-family: Arimo;
+  font-weight: 700;
+  color: white;
+  
+}

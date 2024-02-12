@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous"
+        />
+    <link rel="stylesheet" href="monformulaire.css" />
+    <link rel="stylesheet" href="police/Nunito-Black.ttf">
+    <link rel="stylesheet" href="police/Roboto-Black_0.ttf">
+  </head>
+
+  <body class="w-75 d-block mx-auto">
+    <header class="card-header mt-3 pt-1 pb-2">
+      <img
+        src="LOGO ROUGE.png"
+        alt="logo"
+        class="d-block mx-auto img-fluid"
+        width="100px"
+      />
+    </header>
+    <body>
+      <div class="card card-Custom rounded-0 w-100 mb-4">
+        <div class="card-header text-center h1" id="myCardHeader">
+          FORMULAIRE DE DEMANDE DE CREDIT
+        </div>
+
+        <div class="card-body rounded-0" id="myCardBody">
+          <form action="" method="post" id="myForm" class="ms-4">
+            <div
+              class="input-group mb-3 d-flex container row align-items-center"
+            >
+              <label for="dossierNumber" class="form-label col-3"
+                >N° Dossier de Crédit:</label
+              >
+              <input
+                type="number"
+                class="form-control col"
+                id="dossierNumber"
+                autocomplete="off"
+                value="38554698"
+              />
+            </div>
+
+            <div
+              class="input-group mb-3 d-flex container row align-items-center"
+            >
+              <label for="docNumber" class="form-label col-3">N° DOC:</label>
+              <input
+                type="number"
+                class="form-control col"
+                id="docNumber"
+                autocomplete="off"
+                required
+              />
+            </div>
+
+            <div
+              class="input-group mb-3 d-flex container row align-items-center"
+            >
+              <label for="clientName" class="form-label col-3"
+                >Nom du client:</label
+              >
+              <input
+                type="text"
+                class="form-control col"
+                id="clientName"
+                autocomplete="off"
+                required
+              />
+            </div>
+
+            <div
+              class="input-group mb-3 d-flex container row align-items-center"
+            >
+              <label for="clientLastName" class="form-label col-3"
+                >Prénom du client:</label
+              >
+              <input
+                type="text"
+                class="form-control col"
+                id="clientLastName"
+                autocomplete="off"
+                required
+              />
+            </div>
+
+            <div
+              class="input-group mb-3 d-flex container row align-items-center"
+            >
+              <label for="loanAmount" class="form-label col-3"
+                >Montant du crédit:</label
+              >
+              <input
+                type="number"
+                class="form-control col-9"
+                id="loanAmount"
+                autocomplete="off"
+                required
+              />
+            </div>
+
+            <div
+              class="input-group mb-3 d-flex container row align-items-center"
+            >
+              <label for="rembMonth" class="form-label col-3"
+                >Mois de remboursement:</label
+              >
+              <input
+                type="number"
+                class="form-control col"
+                id="rembMonth"
+                autocomplete="off"
+                required
+              />
+            </div>
+
+            <div
+              class="input-group mb-3 d-flex container row align-items-center"
+            >
+              <label for="loanTarea" class="form-label col-3"
+                >Taux d'intérêts:</label
+              >
+              <input
+                type="number"
+                class="form-control col"
+                id="loanTarea"
+                autocomplete="off"
+                required
+              />
+            </div>
+
+            <div
+              class="input-group mb-3 d-flex container row align-items-center"
+            >
+              <label for="rembLoanMonth" class="form-label col-3"
+                >Mensualité du crédit:</label
+              >
+              <input
+                type="number"
+                class="form-control col"
+                id="rembLoanMonth"
+                autocomplete="off"
+                required
+              />
+            </div>
+
+            <div
+              class="input-group mb-3 d-flex container row align-items-center"
+            >
+              <label for="totalRembLoan" class="form-label col-3"
+                >Remboursement Total:</label
+              >
+              <input
+                type="number"
+                class="form-control col"
+                id="totalRembLoan"
+                autocomplete="off"
+                required
+              />
+            </div>
+
+            <div
+              class="input-group mb-3 d-flex container row align-items-center"
+            >
+              <label for="loanStatut" class="form-label col-3"
+                >Statut du dossier
+              </label>
+              <input
+                type="texte"
+                class="form-control col"
+                id="loanStatut"
+                autocomplete="off"
+                required
+                value="Aprobado"
+              />
+            </div>
+
+            <div class="input-group mb-3 d-flex container row">
+              <label for="decaissementDate" class="form-label col-3"
+                >Date de décaisssement:</label
+              >
+              <input
+                type="date"
+                class="form-control col"
+                id="decaissementDate"
+                autocomplete="off"
+                required
+              />
+            </div>
+
+            <div class="input-group mb-3 d-flex container row">
+              <label for="taxLoanData" class="form-label col-3"
+                >Taxe de dossier de crédit</label
+              >
+              <input
+                type="number"
+                class="form-control col"
+                id="taxLoanData"
+                autocomplete="off"
+                required
+              />
+            </div>
+
+            <div class="input-group d-flex justify-content-center">
+              <button type="submit" class="btn btn-primary" id="myButton">
+                Envoyer
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </body>
+    <footer></footer>
+
+    <script src="monformulaire.js"></script>
+      <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+            crossorigin="anonymous"
+        ></script>
+  </body>
+</html>
